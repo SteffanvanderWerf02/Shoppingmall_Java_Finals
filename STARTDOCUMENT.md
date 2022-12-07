@@ -1,19 +1,30 @@
-# Startdocument Voor Het winkelcentrum
+# Startdocument voor het winkelcentrum
 
-Startdocument van **Steffan van der Werf en Chris Klunder**.
+## Startdocument van **Steffan van der Werf en Chris Klunder**.
 
-## Probleem omschrijving
+# Probleem omschrijving
+In Dubai is sinds kort een nieuw winkelcentrum geopend. Dit winkelcentrum bevat allerlei soorten winkels. Veel winkels bieden producten aan, andere bieden diensten aan en ook nog enkele alleen etenswaren. Er is daarnaast ook nog een parkeergelegenheid voor 90 auto's.
+
+Alle klanten hebben de mogelijkheid om aankopen te doen in een winkel. Hierbij moeten ze de totale prijs van hun aankopen op kunnen vragen. Als de klant een winkel verlaat zonder te betalen, moet er een exception komen.
+
+Wegens recente onveiligheden, heeft het winkelcentrum besloten om beveiliging in te schakelen. In elke soort winkel mogen nog maar 20 personen tegelijkertijd komen met uitzondering van het restaurant. Hier mogen er maximaal 40 personen tegelijkertijd aanwezig zijn. Op de parkeerplaats mogen er nog maar 75% van de totale 90 plekken bezet zijn om de rust beter te bewaren. 
+
+Het winkelcentrum wil graag de volgende dingen weten van de winkels:
+- De totale omzet van alle winkels
+- De totale omzet per soort winkel
+- De omzet per winkel
+- De bezetting per winkel
 
 ### Invoer & Uitvoer
 
-in dit stuk ga ik de in en uitvoer producten beschrijven. 
+In dit stuk gaan wij de in- en uitvoer producten beschrijven. 
 #### Input
 
-In de tabel hier onder ga ik het over de input omschrijven. (de input dat de gebruiker moet in vullen om de applicatie te laten werken)
+In de tabel hier onder gaan zal de input van de gebruiker worden omschreven.
 
 |Case|Type|Conditie|
 |----|----|----------|
-||`String`||
+||||
 
 
 #### Output
@@ -31,7 +42,7 @@ In de tabel hier onder ga ik het over de input omschrijven. (de input dat de geb
 
 #### Opmerkingen
 
-* Input word gecorntoleerd
+* Input word gecontroleerd
 
 ## Klassen diagram
 
@@ -39,28 +50,25 @@ In de tabel hier onder ga ik het over de input omschrijven. (de input dat de geb
 
 ## Testplan
 
-in dit hoofstuk ga ik de testcases omschrijven die de applicatie gaan testen.
+in dit hoofstuk worden de testcases omschreven die gebruikt worden om de applicatie te testen.
 
 ### Test Data
 
-In de volgende tabellen ga je alle data vinden die nodig is om de applicatie te testen
+In de volgende tabellen staat alle data die nodig zijn om de applicatie te testen
 #### Club
 
 | ID           | Input                                    | Code                                |
 |--------------|------------------------------------------|-------------------------------------|
-| `club`       | name: HBO Sport, location: Emmen         | `new Club("HBO Sport", "Emmen")`    |
-| `            |                                      | ``                 |
+| ``           |                                          | ``                                  |
+| ``           |                                          | ``                                  |
 
 ### Testgevallen
 
-In dit hoofstuk ga ik de stappen omschrijven om de test uit te voeren als een basis lijn.
+In dit hoofstuk zullen de stappen omschreven worden die als basis dienen voor het uitvoeren van de test.
 
-#### #1 GetClubRecord
-
-het testen of ik een athleet terug krijg.
-
+#### #1 
 | Step | Input        | Action                 | Expected output |
 | ---- | ------------ | ---------------------- | --------------- |
-| 1    | `Club` | `addAtlete(athleet)` |                 |
-| 2    | `Club` | `addAtlete(athleet2)` |                 |
-| 3    | `Club` | `GetClubRecord()`          | Klunder Athleet            |
+| 1    | `` | `` |                 |
+| 2    | `` | `` |                 |
+| 3    | `` | `` |                 |
